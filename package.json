@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/francois2metz/scalingo-getting-started#readme",
   "dependencies": {
-    "@hapi/hapi": "^20.0.3"
+    "@hapi/hapi": "^20.0.3",
+    "axios": "^0.21.0",
+    "watch": "^1.0.2"
   }
 }
