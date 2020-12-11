@@ -18,6 +18,15 @@ const init = async () => {
     }
   });
 
+  server.route({
+    method: 'GET',
+    path: '/getVersion',
+    handler: (request, h) => {
+
+      return 'getting version ';
+    }
+  });
+
   await server.start();
   console.log('Server running on %s', server.info.uri);
 };
