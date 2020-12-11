@@ -3,9 +3,11 @@
 const Hapi = require('@hapi/hapi');
 
 const init = async () => {
+  const port = parseInt(process.env.PORT, 10) || 4000;
+
 
   const server = Hapi.server({
-    port: 4000,
+    port: port,
     host: '0.0.0.0'
   });
 
