@@ -25,7 +25,7 @@ const init = async () => {
     path: '/getVersion',
     handler: (request, h) => {
 
-      return 'getting version ';
+      return 'getting version with auto deply';
     }
   });
 
